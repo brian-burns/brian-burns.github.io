@@ -12,7 +12,7 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #333;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -28,12 +28,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #FFD800;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #FFD800;
   text-shadow: none;
 }
 
@@ -97,6 +97,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   html {
+     background-color: #F5F0EA;
+     font-family: 'Lato', sans-serif;
+     -webkit-font-smoothing: antialiased;
+   }
+
+
 
 /* ==========================================================================
    Helper classes
@@ -189,6 +197,21 @@ textarea {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+}
+
+@media only screen and (max-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+
+.container {
+  margin: 40px;
+}
+
 }
 
 @media print,
@@ -262,4 +285,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
