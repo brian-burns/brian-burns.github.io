@@ -103,6 +103,7 @@ textarea {
      background-color: #fff;
      font-family: 'Merriweather', sans-serif;
      -webkit-font-smoothing: antialiased;
+     color: #3B3B3B;
    }
 
    h1, h2, h3, h4 {
@@ -110,6 +111,32 @@ textarea {
      font-weight: 700;
    }
 
+   #banner {
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: .8em;
+     background: #4062FF;
+     color: #fff;
+     padding: .8em;
+   }
+
+    h1 {
+      margin-bottom: -16px;
+    }
+
+    a {
+      color: #4062FF;
+    }
+
+    a:hover, a:active {
+      color: #304ABF;
+    }
+
+    a:visited {
+      color: #5C1FCC;
+    }
 
 /* ==========================================================================
    Helper classes
