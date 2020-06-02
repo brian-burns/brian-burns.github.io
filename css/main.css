@@ -101,29 +101,33 @@ textarea {
 
    html {
      background-color: #fff;
-     font-family: 'Merriweather', sans-serif;
+     font-family: 'Overpass Mono', monospace;
      -webkit-font-smoothing: antialiased;
      color: #3B3B3B;
    }
 
    h1, h2, h3, h4 {
-     font-family: 'Lato', sans-serif;
      font-weight: 700;
+    letter-spacing: -.05rem;
    }
 
    #banner {
-     font-family: 'Lato', sans-serif;
      font-weight: 700;
      text-align: center;
      text-transform: uppercase;
      font-size: .8em;
-     background: #4062FF;
-     color: #fff;
+     background: #FFD800;
+     color: #333;
      padding: .8em;
+     margin-bottom: 50px;
    }
 
-    h1 {
+    header h1 {
       margin-bottom: -16px;
+    }
+
+    header h2 {
+      margin-bottom: 50px;
     }
 
     a {
@@ -137,6 +141,10 @@ textarea {
     a:visited {
       color: #5C1FCC;
     }
+
+.container {
+    max-width: 900px;
+}
 
 /* ==========================================================================
    Helper classes
